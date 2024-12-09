@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.first-nav p{
+    font-size: 13px;
+}
+.first-nav i{
+    font-size: 13px;
+}
+.second-nav{
+    /* height: 85px !important; */
+    background-color: white;
+}
+.second-nav .lautech-logo{
+    width: 210px;
+}
+.second-nav li{
+    font-size: 13px !important;
+    font-weight: 600;
+    color: rgb(101,101,135) !important;
+
+}
+.second-nav li a:hover{
+    color: rgb(101,101,135) !important;
+    text-decoration: none;
+}
+.second-nav .dropdown-menu{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.second-nav .dropdown:hover .dropdown-menu{
+    display: block;
+}
+.caro{
+    /* margin-top: -25px; */
+}
+.caro .c-one{
+    background-image: url(https://www.lautech.edu.ng/sites/default/files/Sliders/ICT%20Services.jpg);
+}
+.caro .c-two{
+    background-image: url(https://www.lautech.edu.ng/sites/default/files/Sliders/Flyer%201300x450%20-%20Desktop.jpg);
+}
+.caro .c-one, .c-two{
+    width: 100vw !important;
+    height: 70vh !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed !important; */
+}
+.lr div{
+    font-weight: 600;
+    padding: 10px;
+}
+.lr .learn{
+    background-color: rgb(243,156,18);
+}
+.lr .register{
+    background-color: rgb(227,58,12);
+}
+.lr .learn:hover{
+    background-color: white;
+    border: 1px solid rgb(243,156,18);
+}
+.lr .register:hover{
+    background-color: white;
+    border: 1px solid rgb(227,58,12);
+}
+.mission{
+    background-color: rgb(191,159,97);
+}
+.mission h3{
+    font-weight: 700;
+}
+.mission i{
+    font-size: 8px;
+    padding-left: 5px;
+
+}
+.mission h4{
+    font-weight: 600;
+    font-size: 22px;
+}
+.mission .blueish{
+    color: rgb(94,180,231);
+}
+.mission .yellowish{
+    color: rgb(248,196,79);
+}
+.mission .brownish{
+    color: rgb(244,150,38);
+}
+.lnlle .blueish{
+    color: rgb(94,180,231);
+}
+.lnlle .yellowish{
+    color: rgb(248,196,79);
+}
+.lnlle .brownish{
+    color: rgb(244,150,38);
+}
+.lnlle i{
+    font-size: 8px;
+    padding-left: 5px;
+}
+.lnlle{
+    width: 100vw;
+}
+.lnlle .ln, .lle{
+    width: 50%;
+}
+.lnlle .ln h6{
+    font-size: 13px;
+}
+.lnlle .ln h6:hover{
+    color: rgb(235, 0, 0);
+    transition: 0.7s;
+    cursor: pointer;
+}
+.adv .ln-text p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.adv .ln-text p .acada:hover{
+    text-decoration: 1px solid rgb(235, 0, 0) underline  !important;
+}
+.lle .ojoawo{
+    background-color: rgb(245,245,245);
+    /* height: 100vh; */
+}
+.lle .ojoawo iframe{
+    width: 100%;
+    /* height: auto; */
+}
+.lnlle .ln img{
+    width: 50px;
+    height: 35px;
+}
+.more-news{
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid rgb(235, 0, 0);
+    font-size: 14px;
+    margin: 0px 30% 0px 30%;
+    /* display: inline-block; */
+    /* justify-content: center !important; */
+    /* align-items: center; */
+    /* width: 100px !important;
+    display: flex !important; */
+}
+.more-news:hover{
+    background-color: rgb(235, 0, 0);
+    color: white;
+    transition: 0.789s;
+}
+.social-links .blueish{
+    color: rgb(94,180,231);
+}
+.social-links .yellowish{
+    color: rgb(248,196,79);
+}
+.social-links .brownish{
+    color: rgb(244,150,38);
+}
+.social-links h4 i{
+    font-weight: 600;
+    font-size: 8px;
+    padding-left: 10px;
+}
+.social-links .the-handles i{
+    font-size: 20px;
+}
+.social-links .the-handles .one{
+    background-color: rgb(59,89,152);
+    padding: 7px;
+    border-radius: 50%;
+    color: white;
+}
+.social-links .the-handles .two{
+    background-color: rgb(64,153,255);
+    padding: 7px;
+    border-radius: 50%;
+    color: white;
+}
+.social-links .the-handles .three{
+    background-color: rgb(196,48,43);
+    padding: 7px;
+    border-radius: 50%;
+    color: white;
+}
+.social-links .the-handles .four{
+    background-color: rgb(14,118,168);
+    padding: 7px;
+    border-radius: 50%;
+    color: white;
+}
+.social-links .the-handles .five{
+    background-color: rgb(232,226,217);
+    padding: 7px;
+    border-radius: 50%;
+    color: white;
+}
+.social-links .the-handles i:hover{
+    cursor: pointer;
+    /* background-color: rgba(2, 8, 92, 0.322); */
+    opacity: 0.6;
+}
+.acc{
+    justify-content: center !important;
+    /* align-items: center; */
+}
+.acc .alumni p, .convo-cere p, .alumni-cere-two p{
+    font-size: 15px;
+    color: rgb(101,101,135);
+}
+.acc .alumni, .convo-cere, .alumni-cere-two{
+    width: 30vw !important;
+}
+.acc .alumni iframe, .convo-cere iframe, .alumni-cere-two iframe{
+    background-color: rgb(245,245,245);
+    width: 100%;
+    height: 40vh;
+}
+.sal .blueish{
+    color: rgb(94,180,231);
+}
+.sal .yellowish{
+    color: rgb(248,196,79);
+}
+.sal .brownish{
+    color: rgb(244,150,38);
+}
+.sal h2 i{
+    font-weight: 600;
+    font-size: 8px;
+    padding-left: 10px;
+}
+.sal p{
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+}
+.sal .ass{
+    background-color: rgb(196,48,43) !important;
+    color: rgb(232,226,217);
+}
+.sal .ass:hover{
+    border: 2px solid rgb(196,48,43) !important;
+    color: rgb(196,48,43);
+    background-color: white !important;
+    transition: 0.7s;
+}
+.four-cards .card:hover{
+    scale: 101%;
+    transition: 0.7s;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); 
+    /* box-shadow: 0px 3px 5px ; */
+}
+.four-cards .card p{
+    color: rgb(101,113,164);
+}
+.footer{
+    background-color: rgb(37,36,41);
+    font-size: 13px;
+}
+/* .footer .top h4{
+    font-size: 14px;
+} */
+.footer .top{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.footer .top i{
+    font-size: 40px;
+    cursor: pointer;
+    /* background-color: white; */
+    color: rgb(196,48,43);
+}
+.uas a{
+    color: rgb(187,187,187);
+}
+.uas a:hover{
+    /* color: rgb(187,187,187); */
+    color: rgb(196,48,43);
+}
+.footer .uas ul li{
+    line-height: 29px !important;
+}
+.footer .last-last{
+    /* background-color: rgb(31,30,35); */
+    /* width: 100%; */
+}
+@media only screen and (max-width: 990px){
+    .lnlle{
+        display: block !important;
+    }
+    .lnlle .ln, .lle{
+        width: 100% ;
+    }
+    .acc{
+        display: block !important;
+    }
+    .acc .alumni, .convo-cere, .alumni-cere-two{
+        /* background-color: rgb(245,245,245); */
+        width: 100% !important;
+    }
+    .four-cards{
+        /* display: flex !important; */
+        /* flex-direction: column; */
+        /* justify-content: center !important; */
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+    }
+    /* .four-cards .card{
+        width: ;
+    } */
+}
+@media only screen and (max-width: 990px){
+    .caro .c-one{
+        background-image: url(https://www.lautech.edu.ng/sites/default/files/Sliders/CBT%20Flyer%20600x600%20-%20Mobile.jpg);
+    }
+    .caro .c-two{
+        background-image: url(https://www.lautech.edu.ng/sites/default/files/Sliders/ICT%20Services-mobile.jpg);
+    }
+    
+}
+@media only screen and (max-width: 948px){
+    .sal p{
+        width: 100%;
+        margin: auto;
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .second-nav .lautech-logo{
+        width: 180px;
+    }
+    .first-nav{
+        display: none;
+    }
+    .mission h4{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 410px){
+    .second-nav .lautech-logo{
+        width: 150px;
+    }
+}
